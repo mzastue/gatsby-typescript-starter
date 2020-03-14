@@ -30,6 +30,7 @@ const Layout: React.FC = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
+        {data.site.siteMetadata.title}
         <main>{children}</main>
       </div>
     </>
