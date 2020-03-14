@@ -21,8 +21,6 @@ const Layout: React.FC = ({ children }) => {
     }
   `);
 
-  console.log(data);
-
   return (
     <>
       <div
